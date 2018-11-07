@@ -1,0 +1,16 @@
+logging:
+  level:
+    com.netflix: debug
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      routes:
+#      - id: employee-service
+#        uri: lb://employee-service
+#        predicates:
+#        - Path=/employee/**
+#        filters:
+#        - RewritePath=/employee/(?<path>.*), /$\{path}
